@@ -5,7 +5,8 @@ CREATE TABLE [dbo].[Questions]
 [AnswerOne] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [AnswerTwo] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [AnswerThree] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[AnswerFour] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+[AnswerFour] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[CorrectAnswer] [int] NULL
 ) ON [PRIMARY]
 GO
 GRANT SELECT ON  [dbo].[Questions] TO [quizuser]
