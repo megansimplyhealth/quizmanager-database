@@ -9,5 +9,7 @@ CREATE TABLE [dbo].[Questions]
 [CorrectAnswer] [int] NULL
 ) ON [PRIMARY]
 GO
+GRANT INSERT ON  [dbo].[Questions] TO [quizuser]
+GO
 GRANT SELECT ON  [dbo].[Questions] TO [quizuser]
 GO
